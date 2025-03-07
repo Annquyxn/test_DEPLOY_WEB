@@ -73,14 +73,20 @@ body {
     padding: 20px;
 }
 
-.menu i:hover {
-    background-color: rgb(74, 39, 70);
+.menu a:hover {    
+    color: black;
+    background-color: rgba(210, 105, 198, 0.8);
     position: relative;
-    padding: 1em;
-    border-radius: 50%;
-    transform: scale3d(1.2,1.2,1.2);
-    box-shadow: 0 0 1em 1em rgba(74, 39, 70, 0.8);  
+    font-size: larger;
+    transform: scale(1.2);
+    box-shadow: 0 0 1em 1em rgba(228, 148, 218, 0.8);  
 }
+
+a {
+    border-radius: 50%;
+    transition: all 0.3s ease-in-out;
+}
+
 
 #logo:hover {
     background-color: rgb(0, 0, 0);
@@ -265,7 +271,7 @@ body {
 
 .imgLogo:hover {
     opacity: 1;
-    transform: scale3d(1.2,1.2,1.2);
+    transform: scale(1.2);
     box-shadow: 0 0 1em 1em rgb(255, 177, 177, 0.8);  
 }
 
