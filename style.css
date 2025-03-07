@@ -98,7 +98,6 @@ body {
 .menu i:hover {
     background-color: rgb(74, 39, 70);
     position: relative;
-    padding: 1em;
     border-radius: 50%;
     transform: scale3d(1.2,1.2,1.2);
     box-shadow: 0 0 1em 1em rgba(74, 39, 70, 0.8);  
